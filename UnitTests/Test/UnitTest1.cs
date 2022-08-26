@@ -17,6 +17,7 @@ namespace UnitTests.Test
         [DataRow(5, 2, 7)]
         [DataRow(5, 5, 10)]
         [DataRow(10, 10, 20)]
+        [DataRow(10, -1, 9)]
         public void SumValues(int num1, int num2, int expectedResult)
         {
             //
